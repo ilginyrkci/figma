@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: system-ui;
+  }
+  
+  .container {
+    width: 1440px;
+    margin-inline: auto;
+  }
+  
+  .header {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+  
+    padding-block: 32px;
+    /* 
+    padding-top: 32px;
+    padding-bottom: 32px; 
+    yukarıdaki kodun uzun hali
+    */
+  
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 48px;
+  }
+  
+  .navbar a {
+  color: #212121;
+  
+    text-decoration: none;
+  
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+  } 
+  
+  .profile-section {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .profile-section h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .hero {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 784px;
+    background-image: url('/assets/img/hero-bg.png');
+    background-repeat: no-repeat;
+  }
+  .hero h1 {
+    width: 919px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 81px;
+    letter-spacing: -0.8999999761581421px;
+    text-align: center;
+  }
+  
+  .hero a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px 64px;
+    background-color: #FD7E14;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  
+  .categories {
+    width: 1110px;
+    display: flex;
+    gap: 24px;
+    margin-inline: auto;
+    margin-top: 64px;
+    margin-bottom: 112px;
+  }
+  
+  .latest-recipes {
+    width: 1110px;
+    margin-inline: auto;
+  }
+  
+  .latest-recipes h2 {
+    margin-bottom: 32px;
+  
+    color: #212121;
+  
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+  }
+  
+  .load-more {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+  
+  .load-more a {
+    color: #121212;
+    padding: 16px 48px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    border: 1px solid #121212;
+  }
+  
+  .recipes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .recipe {
+    width: 259px;
+  }
+  
+  .recipe h3 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 352px;
+    margin-inline: auto;
+    background-image: url('/assets/img/incredible-deals-bg.png');
+    background-repeat: no-repeat;
+  }
+  
+  .contact-section h2 {
+    width: 426px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+  }
+  .a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 20px;
+}
+.a:hover{
+    border-radius: 20px;
+    background-color: #121212;
+    color: red;
+}

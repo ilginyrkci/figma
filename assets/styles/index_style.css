@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(0, 0, 0);
+    font-size: 1.3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    color: #ffffff;
+}
+h1{
+    text-align: center;
+    color: tan;
+    background-color: #ffffff;
+    width: 30%;
+    margin-left: 35%;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin: 5px;
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+.menu1 a{
+    background-color: tan;
+}
+.menu2 a{
+    background-color: tan;
+    display: block;
+    width: 25%;
+}
+.menu3 a{
+    background-color: tan;
+    display: inline-block;
+    width: 20%;
+}

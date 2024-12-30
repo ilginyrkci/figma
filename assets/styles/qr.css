@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(206, 206, 206);
+    align-items: center;
+}
+.card {
+    box-shadow: 0px 25px 25px 0px #0000000C;
+    border-radius: 20px 0px 0px 0px;
+    border-radius: 24px;
+    overflow: hidden;
+    width: 335px;
+    margin-left: 690px;
+    margin-top: 110px;
+    padding: 24px 0px 0px 0px;
+    background-color: #FFFFFF;
+}
+.card-text-baslik{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.header img{
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 12px;
+    padding-bottom: 16px;
+    margin-left: 0px;
+    height: 50px;
+    
+  }
+.header span{
+font-weight: 600;
+color: cyan;
+}
+.card-img-top-2{
+    position: absolute;
+    left: 780px;
+    top: 200px;
+    z-index: 1;
+}
+.card-img-top {
+    margin-left: 25px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.card-body {
+    padding: 1rem;
+    margin-left: 10px;
+    line-height: 27.72px;
+}
+
+.card-title {
+    margin-bottom: 2px;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.72px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card-text {
+    color: #7D889E;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 0.1875px;
+    text-align: center;
+    margin-bottom: 17px;
+    margin-top: 10px;
+}
+
+.a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 20px;
+}
+.a:hover{
+    border-radius: 20px;
+    background-color: #121212;
+    color: red;
+}

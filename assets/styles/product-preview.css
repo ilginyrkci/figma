@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #a5a5a5c0;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 418px;
+    margin-left: 400px;
+}
+.header img{
+    height: 434px;
+    width: 270px;
+    float: left;
+    vertical-align: middle;
+    padding-bottom: 16px;
+}
+.description{
+    padding-bottom: 92px;
+}
+.description h5{
+    color: #6C7289;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    letter-spacing: 5px;
+    margin-left: 331px;
+    margin-top: 202px;
+    padding-top: 32px;
+}
+.description p{
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 331px;
+    margin-top: 24px;
+}
+.description h3{
+    color: #1C232B;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 331px;
+    margin-top: 24px;
+}
+.description a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 15px 65px 15px 65px;
+    background-color: #3D8168;
+    text-decoration: none;
+    border-radius:8px ;
+    margin-left: 63px;
+    position: absolute;
+    top: 543px;
+}
+.description .money{
+   color: #3D8168;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+.description .money span{
+    color: #6C7289;
+    vertical-align: middle;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+}
+.a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 20px;
+}
+.a:hover{
+    border-radius: 20px;
+    background-color: #121212;
+    color: red;
+}
+

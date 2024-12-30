@@ -1,0 +1,28 @@
+body{
+    width: 1440px;
+    height: 1024px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(225deg, #A54343 0%, #E73535 100%);
+}
+
+.conteiner .hamb1{
+    width: 1110px;
+    background-image: url('/assets/img/ca1.png');
+    background-repeat: no-repeat;
+    background-position-x: 680px ;
+    border-radius: 12px;
+
+}
+.a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 20px;
+}
+.a:hover{
+    border-radius: 20px;
+    background-color: #121212;
+    color: red;
+}

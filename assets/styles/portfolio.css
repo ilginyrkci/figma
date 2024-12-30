@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+}
+
+.container {
+    width: 1110px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+
+.company-logo {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 120px;
+} 
+
+.hero {
+    width: 844px;
+}
+
+.hero h3 {
+    color: #212121;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    color: #212121;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -0.699999988079071px;
+    margin-bottom: 40px;
+}
+
+.social-media {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 200px;
+}
+
+.latest-projects h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    margin-bottom: 40px;
+}
+
+.project {
+    padding: 24px;
+    border: 1px solid #C4C4C4;
+    border-radius: 12px;
+    margin-bottom: 80px;
+
+    /*
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    */
+}
+
+.project img {
+    margin-bottom: 24px;
+}
+
+.project h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    margin-bottom: 12px;
+}
+
+.project p {
+    color: #212121;
+    width: 630px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 64px;
+}
+
+.project a {
+    color: #212121;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    gap: 3px;
+    align-items:baseline;
+}
+
+.contact {
+    width: 624px;
+}
+
+.contact h3 {
+    color: #212121;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.contact p {
+    color: #212121;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    margin-bottom: 131px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+.a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 20px;
+}
+.a:hover{
+    border-radius: 20px;
+    background-color: #121212;
+    color: red;
+}

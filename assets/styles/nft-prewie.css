@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 1, 73);
+    align-items: center;
+}
+.card {
+    border-radius: 24px;
+    overflow: hidden;
+    width: 384px;
+    margin-left: 690px;
+    margin-top: 110px;
+    padding: 24px 0px 0px 0px;
+    border: 1px solid var(--Black, #111111);
+    background-color: #15263F;
+}
+.card-text-baslik{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.card img{
+    margin-left: 20px;
+    height: 302px;
+    border-radius: 8px 8px 8px 8px;
+}
+.header img{
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 12px;
+    padding-bottom: 16px;
+    margin-left: 0px;
+    height: 50px;
+    
+  }
+.header span{
+font-weight: 600;
+color: cyan;
+}
+.card-img-top {
+    width: 341px;
+    margin-left: 20;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.card-body {
+    padding: 1rem;
+    margin-left: 10px;
+    line-height: 27.72px;
+}
+
+.card-title {
+    margin-bottom: 2px;
+    font-size: 1.7rem;
+    line-height: 27.72px;
+    color: #FFFFFF;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #8BACD9;
+}
+.yorum{
+    line-height: 100.72px;
+    border-top: 1px solid #2E405A;
+}
+.yorum img{
+    vertical-align: -webkit-baseline-middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.yorum span{
+color: #8BACD9;
+    margin-left: 13px;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.yorum strong{
+    color: #FFFFFF;
+font-family: Outfit;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 20px;
+}
+.a:hover{
+    border-radius: 20px;
+    background-color: #121212;
+    color: red;
+}

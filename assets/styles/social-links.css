@@ -1,0 +1,113 @@
+body{
+    background-color: #000000;
+}
+.card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 375px;
+    height: 611px;
+    padding: 40px 0px 0px 0px;
+    margin-top: 178px;
+    margin-left: 528px;
+    background-color: #313131;
+}
+
+.card-img-top {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin-left: 145px;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-header {
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 2.0rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #C4F82A;
+    text-align: center;
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+}
+.card-textt{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.cards a {
+    background-color: #575757;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s;
+}
+.button1{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 12px 127.5px ;
+    margin-left: 30px;
+    color: #fff;
+}
+.button2{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 80px;
+    padding: 12px 108.5px ;
+    margin-left: 30px;
+    color: #fff;
+}
+.button3{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 12px 127.5px ;
+    margin-left: 30px;
+    color: #fff;
+}
+.button4{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 85px;
+    padding: 12px 134.5px ;
+    margin-left: 30px;
+    color: #fff;
+}
+.button5{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 12px 126.5px ;
+    margin-left: 30px;
+    color: #fff;
+}
+.card a:hover {
+    background-color: #C4F82A;
+    color:  #000000;
+}
+.a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 20px;
+}
+.a:hover{
+    border-radius: 20px;
+    background-color: #121212;
+    color: red;
+}
